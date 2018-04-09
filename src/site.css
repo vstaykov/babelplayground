@@ -1,0 +1,15 @@
+.log {
+    padding: 15px;
+    background-color: #fafafa;
+    border-left:6px solid #7f7f7f;
+    margin-bottom: 10px;
+}
+
+.log-success {
+    border-color: #80D651;
+}
+
+.log-error {
+    border-color: #d73814;
+    font-weight: bold;
+}
