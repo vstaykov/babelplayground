@@ -54,7 +54,4 @@ if (!window.console.error) {
     window.onerror = function(message, url, lineNumber){
         console.error(`JS error: ${message} on line ${lineNumber} for ${url}`);
     };
-
-    console.log("Success");
-    console.error("Error");
 })();
