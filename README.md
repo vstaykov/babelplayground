@@ -8,3 +8,10 @@ In old browsers with limited ES 2015 support all examples from src folder result
 [ES 2015 browser compatibility](https://kangax.github.io/compat-table/es6/)
 
 [BrowserStack](https://www.browserstack.com)
+
+## Usage
+**1. npm install**
+**2. npm run build**
+
+**src/index.html** - opened in older browsers that do not support ES 2015 will cause errors
+**dist/index.html** - opened in older browsers that do not support ES 2015 will work OK
