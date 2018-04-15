@@ -17,4 +17,5 @@ In old browsers with limited ES 2015 support all examples from src folder result
 **3. npm test** (to run tests)
 
 **src/index.html** - opened in older browsers that do not support ES 2015 will cause errors
+
 **dist/index.html** - opened in older browsers that do not support ES 2015 will work OK
