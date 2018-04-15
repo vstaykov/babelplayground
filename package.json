@@ -10,7 +10,8 @@
     "build": "npm run build:js & npm run build:browserfy & npm run build:content",
     "build:js": "babel src -d dist",
     "build:browserfy": "browserify src/es2015_import.js -o dist/modules_bundle.js -t babelify",
-    "build:content": "cp src/index.html dist/index.html & cp src/site.css dist/site.css"
+    "build:content": "cp src/index.html dist/index.html & cp src/site.css dist/site.css",
+    "test": "mocha test --compilers js:babel-register"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
