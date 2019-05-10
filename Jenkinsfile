@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  properties([
+  options([
     parameters([
       booleanParam(defaultValue: true, description: 'Should install dependencies when run', name: 'InstallDependencies')
     ])
